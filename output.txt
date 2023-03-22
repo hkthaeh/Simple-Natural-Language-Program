@@ -1,0 +1,175 @@
+Query: How do neurons connect in a neural network?
+
+            ##### Output for first part of top_sentences() #####
+
+{'Artificial neural networks (ANN) or connectionist systems are computing systems vaguely inspired by the biological neural networks that constitute animal brains.': 2.1124280406761424,
+
+'An ANN is based on a collection of connected units or nodes called artificial neurons, which loosely model the neurons in a biological brain.': 2.32949254591397,
+
+ 'Each connection, like the synapses in a biological brain, can transmit a signal to other neurons.': 2.32949254591397,
+
+ 'An artificial neuron that receives a signal then processes it and can signal neurons connected to it.': 2.32949254591397,
+
+ 'Neurons and edges typically have a weight that adjusts as learning proceeds.': 2.32949254591397,
+
+ 'Neurons may have a threshold such that a signal is sent only if the aggregate signal crosses that threshold.': 2.32949254591397,
+
+ 'Typically, neurons are aggregated into layers.': 2.32949254591397,
+
+  'ANNs have been used on a variety of tasks, including computer vision, speech recognition, machine translation, social network filtering, playing board and video games, medical diagnosis, and even in activities that have traditionally been considered as reserved to humans, like painting.': 2.2150821947362256,
+
+  'Warren McCulloch and Walter Pitts (1943) opened the subject by creating a computational model for neural networks.': 2.1124280406761424,
+
+  'In the late 1940s, D. O. Hebb created a learning hypothesis based on the mechanism of neural plasticity that became known as Hebbian learning.': 2.1124280406761424,
+
+  'Farley and Wesley A. Clark (1954) first used computational machines, then called "calculators", to simulate a Hebbian network.': 2.2150821947362256,
+
+  "In 1982, he applied Linnainmaa's AD method to neural networks in the way that became widely used.": 2.1124280406761424,
+
+  'Thereafter research stagnated following Minsky and Papert (1969), who discovered that basic perceptrons were incapable of processing the exclusive-or circuit and that computers lacked sufficient power to process useful neural networks.': 2.1124280406761424,
+
+  'The development of metal–oxide–semiconductor (MOS) very-large-scale integration (VLSI), in the form of complementary MOS (CMOS) technology, enabled the development of practical artificial neural networks in the 1980s.': 2.1124280406761424,
+
+  'A landmark publication in the field was the 1989 book Analog VLSI Implementation of Neural Systems by Carver A. Mead and Mohammed Ismail.': 2.1124280406761424,
+
+   'In 2012, Ng and Dean created a network that learned to recognize higher-level concepts, such as cats, only from watching unlabeled images.': 2.2150821947362256,
+
+   'Ciresan and colleagues (2010) showed that despite the vanishing gradient problem, GPUs make backpropagation feasible for many-layered feedforward neural networks.': 2.1124280406761424,
+
+   'Neurons are connected to each other in various patterns, to allow the output of some neurons to become the input of others.': 2.32949254591397,
+
+    'The network forms a directed, weighted graph.': 2.2150821947362256,
+
+     'An artificial neural network consists of a collection of simulated neurons.': 6.657002781326338,
+
+      '==== Neurons ====': 2.32949254591397,
+
+       'ANNs are composed of artificial neurons which retain the biological concept of neurons, which receive input, combine the input with their internal state (activation) and an optional threshold using an activation function, and produce output using an output function.': 2.32949254591397,
+
+        'The network consists of connections, each connection providing the output of one neuron as an input to another neuron.': 2.2150821947362256,
+
+         'The propagation function computes the input to a neuron from the outputs of its predecessor neurons and their connections as a weighted sum.': 2.32949254591397,
+
+         'The neurons are typically organized into multiple layers, especially in deep learning.': 2.32949254591397,
+
+          'Neurons of one layer connect only to neurons of the immediately preceding and immediately following layers.': 7.462345472734475,
+
+           'They can be pooling, where a group of neurons in one layer connect to a single neuron in the next layer, thereby reducing the number of neurons in that layer.': 7.462345472734475,
+
+           'Neurons with only such connections form a directed acyclic graph and are known as feedforward networks.': 2.32949254591397,
+
+           'Alternatively, networks that allow connections between neurons in the same or previous layers are known as recurrent networks.': 2.32949254591397,
+
+           'Learning is the adaptation of the network to better handle a task by considering sample observations.': 2.2150821947362256,
+
+           'Learning involves adjusting the weights (and optional thresholds) of the network to improve the accuracy of the result.': 2.2150821947362256,
+
+           'If after learning, the error rate is too high, the network typically must be redesigned.': 2.2150821947362256,
+
+           'In order to avoid oscillation inside the network such as alternating connection weights, and to improve the rate of convergence, refinements use an adaptive learning rate that increases or decreases as appropriate.': 2.2150821947362256,
+
+           'The weight updates can be done via stochastic gradient descent or other methods, such as Extreme Learning Machines, "No-prop" networks, training without backtracking, "weightless" networks, and non-connectionist neural networks.': 2.1124280406761424,
+
+            "A commonly used cost is the mean-squared error, which tries to minimize the average squared error between the network's output and the desired output.": 2.2150821947362256,
+
+            "   and the network's output.": 2.2150821947362256,
+
+            'In reinforcement learning, the aim is to weight the network (devise a policy) to perform actions that minimize long-term (expected cumulative) cost.': 2.2150821947362256,
+
+            'Self learning in neural networks was introduced in 1982 along with a neural network capable of self-learning  named Crossbar Adaptive Array (CAA).': 4.327510235412368,
+
+            'Convergent recursion is a learning algorithm for cerebellar model articulation controller (CMAC) neural networks.': 2.1124280406761424,
+
+            'Stochastic learning introduces "noise" into the process, using the local gradient calculated from one data point; this reduces the chance of the network getting stuck in local minima.': 2.2150821947362256,
+
+             'Some of the main breakthroughs include: convolutional neural networks that have proven particularly successful in processing visual and other two-dimensional data; long short-term memory avoid the vanishing gradient problem and can handle signals that have a mix of low and high frequency components aiding large-vocabulary speech recognition, text-to-speech synthesis, and photo-real talking heads; competitive networks such as generative adversarial networks in which multiple networks (of varying structure) compete with each other, on tasks such as winning a game or on deceiving the opponent about the authenticity of an input.': 2.1124280406761424,
+
+              '== Network design ==': 2.2150821947362256,
+
+              'Neural architecture search (NAS) uses machine learning to automate ANN design.': 2.1124280406761424,
+
+               'The basic search algorithm is to propose a candidate model, evaluate it against a dataset and use the results as feedback to teach the NAS network.': 2.2150821947362256,
+
+               'Design issues include deciding the number, type and connectedness of network layers, as well as the size of each and the connection type (full, pooling, ...).': 2.2150821947362256,
+
+               'Hyperparameters must also be defined as part of the design (they are not learned), governing matters such as how many neurons are in each layer, learning rate, step, stride, depth, receptive field and padding (for CNNs), etc.': 2.32949254591397,
+
+                'Using Artificial neural networks requires an understanding of their characteristics.': 2.1124280406761424,
+
+                'Because of their ability to reproduce and model nonlinear processes, Artificial neural networks have found applications in many disciplines.': 2.1124280406761424,
+
+                'automated trading systems), data mining, visualization, machine translation, social network filtering and e-mail spam filtering.': 2.2150821947362256,
+
+                'Research is underway on ANN systems designed for penetration testing, for detecting botnets, credit cards frauds and network intrusions.': 2.2150821947362256,
+
+                 'In brain research ANNs have studied short-term behavior of individual neurons, the dynamics of neural circuitry arise from interactions between individual neurons and how behavior can arise from abstract neural modules that represent complete subsystems.': 4.441920586590113,
+
+                 'Studies considered long-and short-term plasticity of neural systems and their relation to learning and memory from the individual neuron to the system level.': 2.1124280406761424,
+
+                 'However, the proof is not constructive regarding the number of neurons required, the network topology, the weights and the learning parameters.': 4.544574740650196,
+
+                 'A specific recurrent architecture with rational-valued weights (as opposed to full precision real number-valued weights) has the power of a universal Turing machine, using a finite number of neurons and standard linear connections.': 2.32949254591397,
+
+                 'It is related to the amount of information that can be stored in the network and to the notion of complexity.': 2.2150821947362256,
+
+                  'The capacity of a network of standard neurons (not convolutional) can be derived by four rules  that derive from understanding a neuron as an electrical element.': 4.544574740650196,
+
+                  'The information capacity captures the functions modelable by the network given any data as input.': 2.2150821947362256,
+
+                  'Such as when the width of network approaches to infinity, the ANN resembles linear model, thus such ANN follows the convergence behavior of linear model also.': 2.2150821947362256,
+
+                   'This arises in convoluted or over-specified systems when the network capacity significantly exceeds the needed free parameters.': 2.2150821947362256,
+
+                   'Supervised neural networks that use a mean squared error (MSE) cost function can use formal statistical methods to determine the confidence of the trained model.': 2.1124280406761424,
+
+                   'This value can then be used to calculate the confidence interval of network output, assuming a normal distribution.': 2.2150821947362256,
+
+                   'A confidence analysis made this way is statistically valid as long as the output probability distribution stays the same and the network is not modified.': 2.2150821947362256,
+
+                   'By assigning a softmax activation function, a generalization of the logistic function, on the output layer of the neural network (or a softmax component in a component-based network) for categorical target variables, the outputs can be interpreted as posterior probabilities.': 4.327510235412368,
+
+                    'A common criticism of neural networks, particularly in robotics, is that they require too much training for real-world operation.': 2.1124280406761424,
+
+                     'Potential solutions include randomly shuffling training examples, by using a numerical optimization algorithm that does not take too large steps when changing the network connections following an example, grouping examples in so-called mini-batches and/or introducing a recursive least squares algorithm for CMAC.': 2.2150821947362256,
+
+                      'Backpropagation is a critical step, although no such mechanism exists in biological neural networks.': 2.1124280406761424,
+
+                      'How information is coded by real neurons is not known.': 2.32949254591397,
+
+                      'Sensor neurons fire action potentials more frequently with sensor activation and muscle cells pull more strongly when their associated motor neurons receive action potentials more frequently.': 2.32949254591397,
+
+                       'Other than the case of relaying information from a sensor neuron to a motor neuron, almost nothing of the principles of how information is handled by biological neural networks is known.': 2.1124280406761424,
+
+                       'It is often claimed that they are emergent from the network itself.': 2.2150821947362256,
+
+                       'This allows simple statistical association (the basic function of artificial neural networks) to be described as learning or recognition.': 2.1124280406761424,
+
+                        'Alexander Dewdney commented that, as a result, artificial neural networks have a "something-for-nothing quality, one that imparts a peculiar aura of laziness and a distinct lack of curiosity about just how good these computing systems are.': 2.1124280406761424,
+
+                        'One response to Dewdney is that neural networks handle many complex and diverse tasks, ranging from autonomously flying aircraft to detecting credit card fraud to mastering the game of Go.': 2.1124280406761424,
+
+                         "Neural networks, for instance, are in the dock not only because they have been hyped to high heaven, (what hasn't?)": 2.1124280406761424,
+
+                          'In spite of his emphatic declaration that science is not technology, Dewdney seems here to pillory neural nets as bad science when most of those devising them are just trying to be good engineers.': 2.1124280406761424,
+
+                          'Large and effective neural networks require considerable computing resources.': 2.1124280406761424,
+
+                          'While the brain has hardware tailored to the task of processing signals through a graph of neurons, simulating even a simplified neuron on von Neumann architecture may consume vast amounts of memory and storage.': 2.32949254591397,
+
+                           'Furthermore, the designer often needs to transmit signals through many of these connections and their associated neurons –  which require enormous CPU power and time.': 2.32949254591397,
+
+                           'Schmidhuber noted that the resurgence of neural networks in the twenty-first century is largely attributable to advances in hardware: from 1991 to 2015, computing power, especially as delivered by GPGPUs (on GPUs), has increased around a million-fold, making the standard backpropagation algorithm feasible for training networks that are several layers deeper than before.': 2.1124280406761424,
+
+                           'Neuromorphic engineering addresses the hardware difficulty directly, by constructing non-von-Neumann chips to directly implement neural networks in circuitry.': 2.1124280406761424,
+
+                           'Another type of chip optimized for neural network processing is called a Tensor Processing Unit, or TPU.': 4.327510235412368,
+
+                           'Analyzing what has been learned by an ANN, is much easier than to analyze what has been learned by a biological neural network.': 4.327510235412368,
+
+                           'Furthermore, researchers involved in exploring learning algorithms for neural networks are gradually uncovering general principles that allow a learning machine to be successful.': 2.1124280406761424,
+
+                            'Advocates of hybrid models (combining neural networks and symbolic approaches), claim that such a mixture can better capture the mechanisms of the human mind.': 2.1124280406761424,
+
+                            'The Neural Network Zoo – a compilation of neural network types': 4.327510235412368,
+
+                            'The Stilwell Brain – a Mind Field episode featuring an experiment in which humans act as individual neurons in a neural network that classifies handwritten digits': 6.657002781326338}

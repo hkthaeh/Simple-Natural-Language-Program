@@ -1,0 +1,40 @@
+### output for test7.py ###
+### there is something wrong with the scoring, I'll probbaly have to recode
+### the first two parts..
+
+
+
+
+{'machine_learning.txt': -706.8834116524204,
+'neural_network.txt': -301.22872655642914,
+'artificial_intelligence.txt': -265.08127936965764,
+ 'natural_language_processing.txt': -52.21297926978105,
+  'python.txt': -8.032766041504777,
+   'probability.txt': -4.0163830207523885}
+
+
+{'neural_network.txt': -9.406143226907663,
+ 'python.txt': -8.062408480206567,
+  'artificial_intelligence.txt': -5.374938986804379,
+   'machine_learning.txt': -5.374938986804379,
+    'probability.txt': -4.0163830207523885,
+    'natural_language_processing.txt': -2.6874694934021894}
+
+    ### After adding a new dictionary 'score' to compute_idfs() ###
+
+{'machine_learning.txt': -25.208581772134703,
+ 'neural_network.txt': -11.028754525308933,
+  'python.txt': -8.032766041504777,
+   'artificial_intelligence.txt': -7.877681803792095,
+    'probability.txt': -4.0163830207523885,
+     'natural_language_processing.txt': -1.575536360758419}
+
+
+     ### FINALLY after changing the top_files()'s sum of all value.count(word) * idfs[word] ###
+
+     {'machine_learning.txt': -737.4669324113595,
+      'neural_network.txt': -321.66362430864575,
+       'artificial_intelligence.txt': -278.3339001602541,
+        'natural_language_processing.txt': -56.47598512394166,
+         'python.txt': -16.095174521711343,
+          'probability.txt': -4.0163830207523885}
