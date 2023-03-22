@@ -9,7 +9,7 @@ all the words in each file
 
 Input in terminal:
 
-  python questions.py corpus 
+    python questions.py corpus 
 
 then ask it a question relating to the .txt files in the folder "corpus"
 
