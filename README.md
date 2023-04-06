@@ -51,13 +51,16 @@ TimeLine:
 Software Requirements Specification (SRS)
 
 	Functionality
+	
 		-takes in any article/writing of a txt filetype inside the corpus folder and using the NLTK natural language library, we can ask the program questions relating to any of the inputed txt files and receive an relative accurate answer relating to the question asked 
 
 	Intended Audience
+	
 		-This program is intended for all general audience that wants to find a quick answer to a question relating to an article/articles. 
 	Benchmarks
 	
 	Constraints 
+	
 		-Only txt filetypes can be input into the corpus folder 
 		-The more files in the corpus folder, the longer the program will take to run
 		-Only questions relating the the txt files inside the corpus folder will receive a relatively accurate answer 
@@ -66,6 +69,7 @@ Software Requirements Specification (SRS)
 	
 	
 	Requirements
+	
 		Functional
 			-Python version 3.7 or higher
 			-Installation of the NLTK Python Library 
@@ -80,6 +84,7 @@ Software Requirements Specification (SRS)
 				-Running any Windows operating system version
 
 	Non-Functional Requirements
+	
 		Performance
 			-The more txt files inside the corpus folder, the slower it will run
 		Safety/Security 
@@ -89,6 +94,7 @@ Software Requirements Specification (SRS)
 
 
 User Requirements Specification ( URS ) 
+
 	Who is the User?
 		-Anyone who wants to quickly find a answer to a particular question relating to a specific article. 
 	What is the function that needs to be performed? 
@@ -98,6 +104,7 @@ User Requirements Specification ( URS )
 
 
 System Requirement Specification ( SysRS ) 
+
 	Policy 
 		-Anyone can use this program 
 	Regulation
