@@ -52,32 +52,35 @@ Software Requirements Specification (SRS)
 
 	Functionality
 	
-		-takes in any article/writing of a txt filetype inside the corpus folder and using the NLTK natural language library, we can ask the program questions relating to any of the inputed txt files and receive an relative accurate answer relating to the question asked 
+		-takes in any article/writing in txt format inside the corpus folder and uses the NLTK natural language library to be able to ask the program questions relating to any of the inputed txt files and receive an relative accurate answer relating to the question asked 
 
 	Intended Audience
 	
 		-This program is intended for all general audience that wants to find a quick answer to a question relating to an article/articles. 
-	Benchmarks
 	
 	Constraints 
 	
 		-Only txt filetypes can be input into the corpus folder 
 		-The more files in the corpus folder, the longer the program will take to run
 		-Only questions relating the the txt files inside the corpus folder will receive a relatively accurate answer 
-		-Only questions inputed in the English language, ASCII alphabets, will be recognize by the program 
+		-Only questions inputed in the English language, complete sentences, ASCII alphabets, will be recognize by the program 
 		-This program is dependent on the NLTK natural language Python library
 	
 	
 	Requirements
 	
 		Functional
+		
 			-Python version 3.7 or higher
 			-Installation of the NLTK Python Library 
 				https://www.nltk.org/install.html
+				
 		External Interface Requirements 
+		
 			-A Mac or PC computer using any IDEs such as VS Code
 		
 		System Features 
+		
 			Mac
 				-Running any Mac operating system version
 			Windows
@@ -86,9 +89,9 @@ Software Requirements Specification (SRS)
 	Non-Functional Requirements
 	
 		Performance
-			-The more txt files inside the corpus folder, the slower it will run
+			-The more txt files inside the corpus folder, the slower the program will run
 		Safety/Security 
-			-All files put inside the corpus folder will stay there and will need to be manually deleted if required 
+			-All files inside the corpus folder will stay there and will need to be manually deleted if required 
 		Quality
 			-Inputed articles that are very similar to one another will result in a answer that might not satisfy the user
 
@@ -96,9 +99,9 @@ Software Requirements Specification (SRS)
 User Requirements Specification ( URS ) 
 
 	Who is the User?
-		-Anyone who wants to quickly find a answer to a particular question relating to a specific article. 
+		-Anyone who wants to quickly find an answer to a particular question relating to a specific article. 
 	What is the function that needs to be performed? 
-		-To quickly find a answer to a question relating to one article
+		-To quickly find an answer to a question relating to one article
 	Why does the user want this functionality?
 		-To save time on trying to find the answer of a specific question in a very long article/writing 
 
